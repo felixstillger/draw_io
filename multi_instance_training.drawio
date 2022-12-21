@@ -1,1 +1,82 @@
-<mxfile host="app.diagrams.net" modified="2022-12-21T09:49:26.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.7.4" etag="LPWE4MM3xoy5A1eopuic" type="github"><diagram id="a50wJIXkjFzLP4iToEr6">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-21T11:45:19.433Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15" version="20.7.4" etag="tdxdsN8MQ7FqOw9j_eVN" type="github">
+  <diagram id="uztGwvsPnqVzW0PckYfJ" name="Seite-1">
+    <mxGraphModel dx="1185" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ehFTStaPAneHNbRCFmcL-5" value="Inner Epoch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="ehFTStaPAneHNbRCFmcL-1" target="ehFTStaPAneHNbRCFmcL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="89.97" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="100" />
+              <mxPoint x="200" y="140" />
+              <mxPoint x="70" y="140" />
+              <mxPoint x="70" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-1" value="Instance 1" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="89.97" y="80" width="90.03" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-12" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="80" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-13" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="295" y="110" as="sourcePoint" />
+            <mxPoint x="275" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-16" value="Inner Epoch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="ehFTStaPAneHNbRCFmcL-17" target="ehFTStaPAneHNbRCFmcL-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389.94000000000005" y="150" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="499.97" y="100" />
+              <mxPoint x="499.97" y="140" />
+              <mxPoint x="369.97" y="140" />
+              <mxPoint x="369.97" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-25" value="Outer Epoch" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;fontFamily=Times New Roman;fontSize=14;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ehFTStaPAneHNbRCFmcL-17" target="ehFTStaPAneHNbRCFmcL-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="30" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="80" />
+              <mxPoint x="540" y="170" />
+              <mxPoint x="40" y="170" />
+              <mxPoint x="40" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-17" value="Instance n" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Times New Roman;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="389.94000000000005" y="80" width="90.03" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-18" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=14;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="ehFTStaPAneHNbRCFmcL-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="160" as="sourcePoint" />
+            <mxPoint x="239.94000000000005" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-21" value="" style="curved=1;endArrow=classic;html=1;rounded=0;fontFamily=Times New Roman;fontSize=14;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="329.97" y="80" as="sourcePoint" />
+            <mxPoint x="389.9100000000001" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="359.97" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ehFTStaPAneHNbRCFmcL-26" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Multi Instance Training Concept&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontFamily=Times New Roman;" vertex="1" parent="1">
+          <mxGeometry x="240" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
